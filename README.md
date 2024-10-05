@@ -4,7 +4,7 @@
     npm install
   ``
 # Run project on expo app
- ``bash
+ ``
    npx expo start
  ``
 # Uploaded .apk file link

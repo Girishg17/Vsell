@@ -7,7 +7,7 @@ import categories from '../constants/categories'; //import categoris from consta
 
 function Explorescreen() {
   return (
-    <ScrollView style={styles.container}>
+   <View  style={styles.container}>
       <SafeAreaView>
         <CustomHeader />
       </SafeAreaView>
@@ -17,7 +17,7 @@ function Explorescreen() {
         placeholder="🔍 Search Store"
         placeholderTextColor="#888"
       />
-
+      <ScrollView showsVerticalScrollIndicator={false} >
  
       <View style={styles.categoryContainer}>
         {categories.map((category, index) => (
@@ -34,9 +34,12 @@ function Explorescreen() {
             <Image style={styles.categoryImage} source={category.image} />
             <Text style={styles.categoryText}>{category.title}</Text>
           </View>
+          
         ))}
       </View>
-    </ScrollView>
+      </ScrollView>
+      </View>
+  
   );
 }
 

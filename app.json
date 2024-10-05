@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Vsell",
-    "slug": "Vsell",
+    "slug": "vsell",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pes1ug20cs552.vsell"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9d0987f-de39-4203-803e-463a25f99d68"
+      }
+    },
+    "owner": "pes1ug20cs552"
   }
 }

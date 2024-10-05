@@ -1,6 +1,6 @@
 # clone the repository
 # Install Dependencies
-  ``bash
+  ``
     npm install
   ``
 # Run project on expo app
